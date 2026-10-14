@@ -7,6 +7,10 @@ export default function App() {
       <Background />
       <div className="mx-auto max-w-[1280px] px-6 sm:px-10">
         <header className="flex items-center justify-between border-b border-violet-100 py-8">
+        <img
+          src="/images/Avatar-Boitata.jpg"
+          className="relative h-25 w-25 rounded-3xl object-cover shadow-2xl"
+        />
           <strong className="text-mauve tracking-[.24em]">WILD / STORIES</strong>
           <nav aria-label="Navegação principal" className="text-xs font-semibold tracking-widest text-slate-500">
             EXPLORAR · SOBRE
